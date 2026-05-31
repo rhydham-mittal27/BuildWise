@@ -1,0 +1,15 @@
+projectforge/
+│
+├── main.py
+│
+├── agents/
+│   └── architect_agent.py
+│
+├── tools/
+│   ├── roadmap_tool.py
+│   ├── schema_tool.py
+│   ├── api_tool.py
+│   └── timeline_tool.py
+│
+└── utils/
+    └── llm.py
