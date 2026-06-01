@@ -1,6 +1,6 @@
-from langchain_mistralai import ChatMistralAI
+import langchain_mistralai
 import os
-from dotenv import load_dotenv
+import dotenv
 
-load_dotenv()
-llm = ChatMistralAI(model_name=str(os.getenv("MISTRAL_MODEL")))
+dotenv.load_dotenv()
+llm = langchain_mistralai.ChatMistralAI(model_name=str(os.getenv("MISTRAL_MODEL")))

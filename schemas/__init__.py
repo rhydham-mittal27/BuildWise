@@ -4,7 +4,7 @@ from .frontend import FrontendPlanInput
 from .roadmap import ProjectRoadmapInput
 from .task import TaskGenerationInput
 from .techstack import TechStackInput
-from .ask import ProjectDiscoveryInput
+from .ask import AskForContextInput
 
 __all__ = [
     "ProjectRoadmapInput",
@@ -13,5 +13,5 @@ __all__ = [
     "FrontendPlanInput",
     "TaskGenerationInput",
     "TechStackInput",
-    "ProjectDiscoveryInput",
+    "AskForContextInput",
 ]
